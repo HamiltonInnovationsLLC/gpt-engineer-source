@@ -1,3 +1,19 @@
+# TO SET UP AND RUN 
+  # Open requirements.txt and click create virtual environment. Follow prompts to create .venv file. 
+  # I am using python 3.10 currently in my environment. 
+  # open projects folder and copy the " example " folder and paste inside the projects folder. 
+  # Open your terminal ( CTRL + ` ) make sure it has the virtual environment loaded. It will have (.venv) somewhere around the terminal line
+  # run " gpt-engineer projects/"YOUR PROJECT NAME HERE"
+  # when it errors out for no api key follow the code reference and replace the word "key" with your key
+  # .venv\Lib\site-packages\openai\api_requestor.py is where that code lives that needs the updated key. 
+  # for me it was on line 138 you can search for " self.api_key = key " 
+  # Make sure your key is wrapped in '' to make sure that it is read as a string value. 
+
+
+
+
+
+
 # GPT Engineer
 [![GitHub Repo stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer?style=social)](https://github.com/AntonOsika/gpt-engineer)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/4t5vXHhu?style=flat)](https://discord.gg/4t5vXHhu)

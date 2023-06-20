@@ -46,5 +46,5 @@ archive
 todo
 
 # Ignore GPT Engineer files
-projects
-!projects/example
+# projects
+# projects/example

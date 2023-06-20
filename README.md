@@ -1,4 +1,5 @@
-# TO SET UP AND RUN 
+# TO SET UP AND RUN
+  # CREATE A NEW BRANCH TO WORK OFF OF. 
   # Open requirements.txt and click create virtual environment. Follow prompts to create .venv file. 
   # I am using python 3.10 currently in my environment. 
   # open projects folder and copy the " example " folder and paste inside the projects folder. 
@@ -8,6 +9,9 @@
   # .venv\Lib\site-packages\openai\api_requestor.py is where that code lives that needs the updated key. 
   # for me it was on line 138 you can search for " self.api_key = key " 
   # Make sure your key is wrapped in '' to make sure that it is read as a string value. 
+
+# TO RUN 
+  # run " gpt-engineer projects/"YOUR PROJECT NAME HERE"
 
 
 

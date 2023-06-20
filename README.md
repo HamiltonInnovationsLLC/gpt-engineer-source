@@ -10,6 +10,7 @@
   # for me it was on line 138 you can search for " self.api_key = key " 
   # Make sure your key is wrapped in '' to make sure that it is read as a string value. 
 
+
 # TO RUN 
   # run " gpt-engineer projects/"YOUR PROJECT NAME HERE"
 
